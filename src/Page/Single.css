@@ -1,0 +1,113 @@
+.single--container {
+  height: 100%;
+  width: 100%;
+  background-color: #00000090;
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single--content {
+  height: 90%;
+  width: 90%;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.header--single {
+  background-color: midnightblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8em 1em;
+}
+
+.header--single > .header--detail {
+  background: brown;
+}
+
+.header--single > .header--detail > .detail {
+  background: orangered;
+  display: flex;
+}
+
+.header--single > .header--detail > .detail > .name > h4 {
+  color: #fff;
+  font-weight: 500;
+}
+
+.header--single > .header--detail > .detail > .name > p {
+  font-size: 0.8rem;
+}
+.header--single > .header--detail > .detail > .dp {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: orange;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+
+.single--content .icon {
+  padding: 0.8em;
+  border: 1px solid #ccc;
+}
+
+.header--single > .header--like,
+.header--single > .header--like > .icon-btn {
+  display: flex;
+  align-items: center;
+}
+
+.header--like > .icon {
+  margin-right: 0.5em;
+  border-radius: 5px;
+}
+
+.icon-btn > button {
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 0.4em 0.5em;
+  border: 1px solid #ccc;
+  text-transform: capitalize;
+  color: #cdf;
+  border-right: none;
+  /* margin-right: 1em; */
+}
+
+.icon-btn > .icon {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.single--content > .display--image {
+  width: 100%;
+  background-color: #292888;
+  flex: 1;
+}
+
+.single--content > .locale {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8em 1em;
+  background-color: purple;
+}
+
+.locale > .btns {
+  display: flex;
+  align-items: center;
+}
+
+.locale > .btns > .icon {
+  padding: 0.3em 1em;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  margin-left: 0.5em;
+  border-radius: 5px;
+}
